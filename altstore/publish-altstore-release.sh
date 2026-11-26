@@ -400,6 +400,25 @@ with open(path, "w", encoding="utf-8") as handle:
 print(f"Wrote {path}")
 PY
 
+python3 - "$PACKAGE_DIR/qrcode.png" "$BASE_URL/" <<'PY'
+import sys
+
+import qrcode
+
+path, url = sys.argv[1:3]
+qr = qrcode.QRCode(
+    version=None,
+    error_correction=qrcode.constants.ERROR_CORRECT_H,
+    box_size=12,
+    border=4,
+)
+qr.add_data(url)
+qr.make(fit=True)
+image = qr.make_image(fill_color="#0B1B3A", back_color="white")
+image.save(path, optimize=True)
+print(f"Updated {path} -> {url}")
+PY
+
 python3 - "$INDEX_HTML" "$SOURCE_URL" "$DOWNLOAD_URL" "$TARGET_VERSION" "$TARGET_BUILD" "$SIZE" "$SHA" "$ICON_URL" "$RELEASE_FOLDER_REL" <<'PY'
 import html
 import sys
@@ -500,7 +519,7 @@ page = f"""<!doctype html>
 
     <div class="qr-wrap">
       <img src="qrcode.png" alt="QR code for the WNSS download page">
-      <p>Scan this QR code with your iPhone camera to open this page.</p>
+      <p>Scan this QR code with your iPhone camera to open the AltStore download page.</p>
     </div>
   </main>
 </body>
