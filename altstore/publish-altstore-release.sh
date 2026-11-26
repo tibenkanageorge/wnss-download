@@ -440,7 +440,9 @@ page = f"""<!doctype html>
       box-shadow: 0 12px 32px rgba(11,27,58,.14);
     }}
     .hero {{ display: flex; gap: 20px; align-items: center; }}
-    img {{ width: 88px; height: 88px; border-radius: 20px; }}
+    .hero img {{ width: 88px; height: 88px; border-radius: 20px; }}
+    .qr-wrap {{ margin-top: 24px; text-align: center; }}
+    .qr-wrap img {{ width: 180px; height: 180px; border-radius: 12px; border: 1px solid #e2e0d8; }}
     h1 {{ margin: 0 0 6px; font-size: 28px; line-height: 1.15; }}
     p {{ margin: 6px 0; color: #5b6678; }}
     .version {{
@@ -495,6 +497,11 @@ page = f"""<!doctype html>
     </dl>
 
     <code>{e(add_url)}</code>
+
+    <div class="qr-wrap">
+      <img src="qrcode.png" alt="QR code for the WNSS download page">
+      <p>Scan this QR code with your iPhone camera to open this page.</p>
+    </div>
   </main>
 </body>
 </html>
