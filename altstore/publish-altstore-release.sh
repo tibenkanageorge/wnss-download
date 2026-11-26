@@ -29,7 +29,7 @@ Options:
 
 Environment overrides:
   WNSS_KMP_ROOT           Default: ~/Downloads/wnss-kmp
-  WNSS_ALTSTORE_BASE_URL  Default: raw GitHub URL for wnss-download/altstore
+  WNSS_ALTSTORE_BASE_URL  Default: GitHub Pages URL for wnss-download/altstore
   WNSS_DEVELOPMENT_TEAM   Default: A2M62835WH
   WNSS_BUNDLE_ID          Default: ug.go.health.wnss.kmp.ios
 USAGE
@@ -56,7 +56,7 @@ PUBLISHED_IPA="$PACKAGE_DIR/WNSS.ipa"
 PUBLISHED_ICON="$PACKAGE_DIR/icon.png"
 RELEASES_DIR="$PACKAGE_DIR/releases"
 
-BASE_URL="${WNSS_ALTSTORE_BASE_URL:-https://raw.githubusercontent.com/tibenkanageorge/wnss-download/main/altstore}"
+BASE_URL="${WNSS_ALTSTORE_BASE_URL:-https://tibenkanageorge.github.io/wnss-download/altstore}"
 BASE_URL="${BASE_URL%/}"
 TEAM="${WNSS_DEVELOPMENT_TEAM:-A2M62835WH}"
 BUNDLE="${WNSS_BUNDLE_ID:-ug.go.health.wnss.kmp.ios}"

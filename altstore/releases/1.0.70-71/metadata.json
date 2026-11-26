@@ -1,12 +1,12 @@
 {
   "version": "1.0.70",
   "build": "71",
-  "date": "2026-11-26T10:41:28Z",
+  "date": "2026-11-26T11:05:08Z",
   "size": 14113628,
   "sha256": "4c61594162c79ecab2d66130c249c623feba66847e5e12de75202589a1130183",
   "minOSVersion": "17.0",
-  "downloadURL": "https://raw.githubusercontent.com/tibenkanageorge/wnss-download/main/altstore/WNSS.ipa",
-  "releaseDownloadURL": "https://raw.githubusercontent.com/tibenkanageorge/wnss-download/main/altstore/releases/1.0.70-71/WNSS.ipa",
-  "sourceURL": "https://raw.githubusercontent.com/tibenkanageorge/wnss-download/main/altstore/altstore.json",
-  "iconURL": "https://raw.githubusercontent.com/tibenkanageorge/wnss-download/main/altstore/icon.png"
+  "downloadURL": "https://tibenkanageorge.github.io/wnss-download/altstore/WNSS.ipa",
+  "releaseDownloadURL": "https://tibenkanageorge.github.io/wnss-download/altstore/releases/1.0.70-71/WNSS.ipa",
+  "sourceURL": "https://tibenkanageorge.github.io/wnss-download/altstore/altstore.json",
+  "iconURL": "https://tibenkanageorge.github.io/wnss-download/altstore/icon.png"
 }

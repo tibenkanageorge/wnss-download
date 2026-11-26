@@ -3,7 +3,7 @@
   "identifier": "ug.go.health.wnss.altstore",
   "subtitle": "Weekly Nutrition Surveillance System",
   "description": "Uganda Ministry of Health WNSS iPhone builds.",
-  "website": "https://raw.githubusercontent.com/tibenkanageorge/wnss-download/main/altstore",
+  "website": "https://tibenkanageorge.github.io/wnss-download/altstore",
   "apps": [
     {
       "name": "WNSS",
@@ -11,23 +11,23 @@
       "developerName": "Uganda Ministry of Health",
       "subtitle": "Weekly Nutrition Surveillance System",
       "description": "Weekly nutrition surveillance reporting for Ugandan health facilities.",
-      "iconURL": "https://raw.githubusercontent.com/tibenkanageorge/wnss-download/main/altstore/icon.png",
+      "iconURL": "https://tibenkanageorge.github.io/wnss-download/altstore/icon.png",
       "tintColor": "0B1B3A",
       "category": "Medical",
       "version": "1.0.70",
       "buildVersion": "71",
-      "versionDate": "2026-11-26T10:41:28Z",
-      "versionDescription": "Initial AltStore package for WNSS iOS 1.0.70 build 71.",
-      "localizedDescription": "Initial AltStore package for WNSS iOS 1.0.70 build 71.",
-      "downloadURL": "https://raw.githubusercontent.com/tibenkanageorge/wnss-download/main/altstore/WNSS.ipa",
+      "versionDate": "2026-11-26T11:05:08Z",
+      "versionDescription": "WNSS iOS 1.0.70 build 71 — AltStore package.",
+      "localizedDescription": "WNSS iOS 1.0.70 build 71 — AltStore package.",
+      "downloadURL": "https://tibenkanageorge.github.io/wnss-download/altstore/WNSS.ipa",
       "size": 14113628,
       "versions": [
         {
           "version": "1.0.70",
           "buildVersion": "71",
-          "date": "2026-11-26T10:41:28Z",
-          "localizedDescription": "Initial AltStore package for WNSS iOS 1.0.70 build 71.",
-          "downloadURL": "https://raw.githubusercontent.com/tibenkanageorge/wnss-download/main/altstore/WNSS.ipa",
+          "date": "2026-11-26T11:05:08Z",
+          "localizedDescription": "WNSS iOS 1.0.70 build 71 — AltStore package.",
+          "downloadURL": "https://tibenkanageorge.github.io/wnss-download/altstore/WNSS.ipa",
           "size": 14113628,
           "sha256": "4c61594162c79ecab2d66130c249c623feba66847e5e12de75202589a1130183",
           "minOSVersion": "17.0"
@@ -37,6 +37,6 @@
   ],
   "userInfo": {
     "wnssCurrentReleaseFolder": "releases/1.0.70-71",
-    "wnssSourceURL": "https://raw.githubusercontent.com/tibenkanageorge/wnss-download/main/altstore/altstore.json"
+    "wnssSourceURL": "https://tibenkanageorge.github.io/wnss-download/altstore/altstore.json"
   }
 }
