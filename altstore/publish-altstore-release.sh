@@ -409,7 +409,8 @@ from urllib.parse import quote
     path, source_url, download_url, version, build, size, sha, icon_url, release_folder,
 ) = sys.argv[1:10]
 
-add_url = "altstore://source?url=" + quote(source_url, safe="")
+source_link = source_url + "?v=" + build
+add_url = "altstore://source?url=" + quote(source_link, safe="")
 e = html.escape
 
 page = f"""<!doctype html>
@@ -482,7 +483,7 @@ page = f"""<!doctype html>
 
     <div class="actions">
       <a class="button" href="{e(add_url)}">Add to AltStore</a>
-      <a class="button secondary" href="{e(source_url)}">Open altstore.json</a>
+      <a class="button secondary" href="{e(source_link)}">Open altstore.json</a>
       <a class="button secondary" href="{e(download_url)}">Download IPA</a>
     </div>
 
