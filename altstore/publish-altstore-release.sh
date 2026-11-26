@@ -460,8 +460,6 @@ page = f"""<!doctype html>
     }}
     .hero {{ display: flex; gap: 20px; align-items: center; }}
     .hero img {{ width: 88px; height: 88px; border-radius: 20px; }}
-    .qr-wrap {{ margin-top: 24px; text-align: center; }}
-    .qr-wrap img {{ width: 180px; height: 180px; border-radius: 12px; border: 1px solid #e2e0d8; }}
     h1 {{ margin: 0 0 6px; font-size: 28px; line-height: 1.15; }}
     p {{ margin: 6px 0; color: #5b6678; }}
     .version {{
@@ -484,7 +482,6 @@ page = f"""<!doctype html>
       font-weight: 700;
     }}
     a.button.secondary {{ background: #e8e6df; color: #0b1b3a; }}
-    code {{ display: block; margin-top: 22px; padding: 14px; border-radius: 12px; background: #fbfaf7; overflow-wrap: anywhere; font-size: 12px; }}
     dl {{ display: grid; grid-template-columns: auto 1fr; gap: 6px 16px; margin: 22px 0 0; }}
     dt {{ color: #5b6678; }}
     dd {{ margin: 0; overflow-wrap: anywhere; }}
@@ -512,15 +509,7 @@ page = f"""<!doctype html>
       <dt>Source URL</dt><dd>{e(source_url)}</dd>
       <dt>Release folder</dt><dd>{e(release_folder)}</dd>
       <dt>IPA size</dt><dd>{int(size):,} bytes</dd>
-      <dt>SHA-256</dt><dd>{e(sha)}</dd>
     </dl>
-
-    <code>{e(add_url)}</code>
-
-    <div class="qr-wrap">
-      <img src="qrcode.png" alt="QR code for the WNSS download page">
-      <p>Scan this QR code with your iPhone camera to open the AltStore download page.</p>
-    </div>
   </main>
 </body>
 </html>
