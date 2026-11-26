@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WNSS for AltStore</title>
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 32px 18px;
+      background: #f4f3ee;
+      color: #0b1b3a;
+      font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    main {
+      width: min(100%, 620px);
+      background: #fff;
+      border-radius: 24px;
+      padding: 30px;
+      box-shadow: 0 12px 32px rgba(11,27,58,.14);
+    }
+    .hero { display: flex; gap: 20px; align-items: center; }
+    img { width: 88px; height: 88px; border-radius: 20px; }
+    h1 { margin: 0 0 6px; font-size: 28px; line-height: 1.15; }
+    p { margin: 6px 0; color: #5b6678; }
+    .version {
+      display: inline-block;
+      margin: 18px 0 22px;
+      padding: 7px 12px;
+      border-radius: 999px;
+      background: #e9eefd;
+      color: #2456e8;
+      font-weight: 700;
+    }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; }
+    a.button {
+      display: inline-block;
+      padding: 13px 18px;
+      border-radius: 14px;
+      background: #2456e8;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    a.button.secondary { background: #e8e6df; color: #0b1b3a; }
+    code { display: block; margin-top: 22px; padding: 14px; border-radius: 12px; background: #fbfaf7; overflow-wrap: anywhere; font-size: 12px; }
+    dl { display: grid; grid-template-columns: auto 1fr; gap: 6px 16px; margin: 22px 0 0; }
+    dt { color: #5b6678; }
+    dd { margin: 0; overflow-wrap: anywhere; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="hero">
+      <img src="https://raw.githubusercontent.com/tibenkanageorge/wnss-download/main/altstore/icon.png" alt="WNSS app icon">
+      <div>
+        <h1>WNSS for iPhone</h1>
+        <p>Add this source to AltStore, then install or refresh WNSS.</p>
+      </div>
+    </div>
+
+    <div class="version">WNSS v1.0.70 · build 71</div>
+
+    <div class="actions">
+      <a class="button" href="altstore://source?url=https%3A%2F%2Fraw.githubusercontent.com%2Ftibenkanageorge%2Fwnss-download%2Fmain%2Faltstore%2Faltstore.json">Add to AltStore</a>
+      <a class="button secondary" href="https://raw.githubusercontent.com/tibenkanageorge/wnss-download/main/altstore/altstore.json">Open altstore.json</a>
+      <a class="button secondary" href="https://raw.githubusercontent.com/tibenkanageorge/wnss-download/main/altstore/WNSS.ipa">Download IPA</a>
+    </div>
+
+    <dl>
+      <dt>Source URL</dt><dd>https://raw.githubusercontent.com/tibenkanageorge/wnss-download/main/altstore/altstore.json</dd>
+      <dt>Release folder</dt><dd>releases/1.0.70-71</dd>
+      <dt>IPA size</dt><dd>14,113,628 bytes</dd>
+      <dt>SHA-256</dt><dd>4c61594162c79ecab2d66130c249c623feba66847e5e12de75202589a1130183</dd>
+    </dl>
+
+    <code>altstore://source?url=https%3A%2F%2Fraw.githubusercontent.com%2Ftibenkanageorge%2Fwnss-download%2Fmain%2Faltstore%2Faltstore.json</code>
+  </main>
+</body>
+</html>
